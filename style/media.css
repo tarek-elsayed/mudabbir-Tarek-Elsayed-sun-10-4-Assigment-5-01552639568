@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+  .sidebar {
+    overflow-y: auto;
+    grid-area: sidebar;
+    width: 80px;
+    /* padding: 0 10px; */
+  }
+  .sidebar-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .logo-text{
+    display: none;
+  }
+  .sidebar-logo .logo-img {
+    background-color: white;
+    margin-inline: 15px;
+    background-color: #2953f4;
+    padding: 12px 17px;
+    border-radius: 16px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .nav-links ul li {
+    margin: 35px 0;
+  }
+  .nav-links ul li span {
+    font-weight: 600;
+  }
+  .nav-links ul li i {
+    margin-inline: 10px;
+    color: #4a5565;
+  }
+  .nav-links ul li span span {
+    display: none;
+    color: #4a5565;
+  }
+
+  .nav-links .active-link {
+    background-color: #eff6ff;
+    width: 85%;
+    border-radius: 10px;
+    padding: 10px 0;
+    border: 1px solid #dbeafe;
+  }
+  .quick-actions p {
+    margin-right: 20px;
+  }
+  .active-link .active-link-span i {
+    color: #155dfc;
+  }
+  .active-link .active-link-span span {
+    color: #155dfc;
+  }
+
+  .quick-actions ul li {
+    margin: 35px 0;
+    cursor: pointer;
+  }
+  .quick-actions ul li span {
+    font-weight: 600;
+  }
+  .quick-actions ul li i {
+    margin-inline: 10px;
+    padding: 12px 12px;
+    border-radius: 8px;
+  }
+  .text-blue {
+    color: #2b7fff;
+    background-color: #dbe8fc;
+  }
+  .text-green {
+    color: #00c951;
+    background-color: #d5f3e1;
+  }
+  .text-purple {
+    color: #ad46ff;
+    background-color: #efe0fc;
+  }
+  .text-orange {
+    color: #f54a00;
+    background-color: #fce5d5;
+  }
+}
